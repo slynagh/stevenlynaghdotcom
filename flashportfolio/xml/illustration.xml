@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ILLUSTRATION>
+
+	<ITEM>
+		<CAT>LifeDrawing</CAT>
+		<TITLE>Untitled</TITLE>
+		<DESC>Life study.&#10;Charcoal on cartridge paper</DESC>
+		<URL>assets/images/life_drawing_01.jpg</URL>
+	</ITEM>
+	
+	<ITEM>
+		<CAT>LifeDrawing</CAT>
+		<TITLE>Untitled</TITLE>
+		<DESC>Life study.&#10;Charcoal on cartridge paper</DESC>
+		<URL>assets/images/life_drawing_02.jpg</URL>
+	</ITEM>
+	
+	<ITEM>
+		<CAT>LifeDrawing</CAT>
+		<TITLE>Untitled</TITLE>
+		<DESC>Life study.&#10;Charcoal on cartridge paper</DESC>
+		<URL>assets/images/life_drawing_03.jpg</URL>
+	</ITEM>
+	
+	<ITEM>
+		<CAT>Cartoons</CAT>
+		<TITLE>Scaffolding Safety</TITLE>
+		<DESC>One of a series of images created for a scaffolding safety program.&#10;Background modelled in 3DS Max, character created from pencil on paper sketch and completed in Illustrator and Photoshop. Composited in Photoshop.&#10;Client: Experteyes&#10;</DESC>
+		<URL>assets/images/cartoon_01.jpg</URL>
+	</ITEM>
+	
+	<ITEM>
+		<CAT>Cartoons</CAT>
+		<TITLE>Deadly Ears</TITLE>
+		<DESC>One of a series of educational cartoons created for a regional children's ear health program.&#10;Pencil and paper, Illustrator and Photoshop&#10;Client: Queensland Health - Deadly Ears</DESC>
+		<URL>assets/images/cartoon_02.jpg</URL>
+	</ITEM>
+	
+	<ITEM>
+		<CAT>3D</CAT>
+		<TITLE>P47</TITLE>
+		<DESC>Model of a P47 fighter plane.&#10;Modelled in 3DS Max, texture edited in Photoshop</DESC>
+		<URL>assets/images/3d_01.jpg</URL>
+	</ITEM>
+	
+</ILLUSTRATION>

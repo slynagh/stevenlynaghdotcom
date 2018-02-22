@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<MEDIA THUMB_WIDTH="125" THUMB_HEIGHT="70" THUMB_X="10" THUMB_Y="5" VIDEO_X="198" VIDEO_Y="129">
+
+<ITEM>
+	<CAT>Animation</CAT>
+	<TITLE>An Outragous Speculation</TITLE>
+	<DESC>A simple lip sync exercise. Drawn and animated in Flash.</DESC>
+	<URL>assets/video/sagan_et.f4v</URL>
+</ITEM>
+
+
+<ITEM>
+	<CAT>Animation</CAT>
+	<TITLE>It's All Coming Back To Me</TITLE>
+	<DESC>Official filmclip for the song "All Coming Back To Me" by Brisbane band Intercooler. Concept by Phil Ballantyne. Animated in Flash using Inverse Kinematics</DESC>
+	<URL>assets/video/all_coming_back_to_me_422x309.f4v</URL>
+</ITEM> 
+
+<ITEM>
+	<CAT>MotionGFX</CAT>
+	<TITLE>Serco</TITLE>
+	<DESC>Student work demonstrating motion graphics. Created in After Effects</DESC>
+	<URL>assets/video/serco_550x309.f4v</URL>
+</ITEM>
+
+<ITEM>
+	<CAT>MotionGFX</CAT>
+	<TITLE>SBIT IDM Student Showcase</TITLE>
+	<DESC>I was creative lead for this SBIT Interactive Digital Media student showcase. Created with Adobe CS6.</DESC>
+	<URL>assets/video/idm_showcase_550x309.f4v</URL>
+</ITEM>
+
+<!--<ITEM>
+	<CAT>Video</CAT>
+	<TITLE>SBIT advertisement</TITLE>
+	<DESC>Student work showcasing editing skills and animated text. Created in Premiere Pro.</DESC>
+	<URL>assets/video/sbit_ad.flv</URL>
+</ITEM>-->
+
+<!--<ITEM>
+	<CAT>MotionGFX</CAT>
+	<TITLE>Vanity</TITLE>
+	<DESC>An example of motion graphics. Created in After Effects</DESC>
+	<URL>assets/video/vanity.flv</URL>
+</ITEM>-->
+
+</MEDIA>
+

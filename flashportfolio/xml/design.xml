@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<DESIGN>
+
+	<ITEM>
+		<CAT>Logos</CAT>
+		<TITLE>EZShop.ky logo</TITLE>
+		<DESC>Logo design for online grocery shop.&#10;Created in Illustrator from pencil and paper sketch.&#10;Client: EZShop.ky</DESC>
+		<URL>assets/images/logo_01.jpg</URL>
+	</ITEM>
+	
+	<ITEM>
+		<CAT>Logos</CAT>
+		<TITLE>Healthy Lifestyle Coordinator logo</TITLE>
+		<DESC>Logo design for healthy lifestyle program.&#10;Created in Illustrator.&#10;Client: Onsite Health Solutions</DESC>
+		<URL>assets/images/logo_02.jpg</URL>
+	</ITEM>
+	
+	<ITEM>
+		<CAT>Logos</CAT>
+		<TITLE>Alpine Weddings logo</TITLE>
+		<DESC>Logo design concept for Alpine Weddings company.&#10;Created in Illustrator.</DESC>
+		<URL>assets/images/logo_03.jpg</URL>
+	</ITEM>
+	
+	<ITEM>
+		<CAT>Layout</CAT>
+		<TITLE>SafeSpine Poster</TITLE>
+		<DESC>Poster layout for SafeSpine program.&#10;Created in InDesign.&#10;Client: Onsite Health Solutions</DESC>
+		<URL>assets/images/poster_01.jpg</URL>
+	</ITEM>
+
+</DESIGN>

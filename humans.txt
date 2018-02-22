@@ -1,0 +1,20 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+	Designer & Developer: Steven Lynagh
+	Contact: stevelynagh (at) hotmail (dot) com
+	Twitter: @stevelynagh
+	
+# THANKS
+
+    Mark Hoey, Anitza Geneve, Gerard Cosgrove @ Southbank TAFE
+	Lynda.com
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, Javascript, PHP, MySQL
+    Normalize.css, jQuery, Modernizr
+	Twitter Bootstrap 3
+	Dreamweaver, Photoshop, NotePad++, EasyPHP DevServer

@@ -1,0 +1,551 @@
+@charset "utf-8";
+
+/* ==========================================================================
+   Author's custom styles
+   
+Colors: 
+primary: 		#56626d 		gunmetal
+secondary: 	#ededed 		light grey
+links:			#3f88d1			brightish blue
+text:				#adadad			v dark grey
+trim:				#ccc				grey
+
+========================================================================== */
+
+
+@font-face{ 
+	font-family: 'Museo';
+	src: url('../fonts/Museo300-Regular-webfont.eot');
+	src: url('../fonts/Museo300-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/Museo300-Regular-webfont.woff') format('woff'),
+	     url('../fonts/Museo300-Regular-webfont.ttf') format('truetype'),
+	     url('../fonts/Museo300-Regular-webfont.svg#webfont') format('svg');
+}
+
+@font-face {
+    font-family: 'Museo';
+    src: url('../fonts/Museo500-Regular-webfont.eot');
+    src: url('../fonts/Museo500-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Museo500-Regular-webfont.woff') format('woff'),
+         url('../fonts/Museo500-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Museo500-Regular-webfont.svg#Museo500Regular') format('svg');
+    font-weight:500;
+    font-style: normal;
+
+}
+
+@font-face{ 
+	font-family: 'Museo';
+	src: url('../fonts/Museo700-Regular-webfont.eot');
+	src: url('../fonts/Museo700-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/Museo700-Regular-webfont.woff') format('woff'),
+	     url('../fonts/Museo700-Regular-webfont.ttf') format('truetype'),
+	     url('../fonts/Museo700-Regular-webfont.svg#webfont') format('svg');
+	font-weight:700;
+	font-style:normal;
+}
+
+@font-face{ 
+	font-family: 'Museo';
+	src: url('../fonts/Museo_Slab_500italic-webfont.eot');
+	src: url('../fonts/Museo_Slab_500italic-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/Museo_Slab_500italic-webfont.woff') format('woff'),
+	     url('../fonts/Museo_Slab_500italic-webfont.ttf') format('truetype'),
+	     url('../fonts/Museo_Slab_500italic-webfont.svg#webfont') format('svg');
+	font-style:italic;
+}
+
+body{
+	font-family: 'Museo', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+ul{	
+	list-style-type: none;	
+}
+
+a{
+	color:#3f88d1;
+	text-decoration:none;
+	padding: 1px 2px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+		transition: all 200ms ease ;
+	-webkit-transition: all 200ms ease ;
+	-moz-transition: all 200ms ease ;
+	-ms-transition: all 200ms ease ;
+	-o-transition: all 200ms ease ;	
+}
+
+a:hover, a:focus{
+	color: #ededed;
+	background-color: #3f88d1;
+	text-decoration:none;
+	
+}
+
+.js img{
+	opacity:0;
+	
+	  -webkit-transition: opacity 150ms;
+    -moz-transition: opacity 150ms;
+    -ms-transition: opacity 150ms;
+    transition: opacity 150ms;
+}
+img.loaded{
+    opacity: 1;
+}
+
+/*----------------Utility Classes-----------------------*/
+.rowspacer{
+	margin-bottom:15px;
+}
+
+
+@media(max-width: 532px){
+	.tiny-12{
+		width:100%;
+	}
+}
+
+.junior{
+	max-width: 590px;
+}
+
+.justify{
+	text-align:justify;
+}
+
+/*---------------Navbar Styles-----------------------*/
+
+.js .nav{
+	visibility:hidden;
+	opacity:0;
+}
+
+#wrap > .container {
+	padding: 97px 15px 0; /*top padding gives room for the navbar*/
+}
+
+.full.navbar{
+	height:150px;
+}
+
+.full .nav{
+	padding-top:50px;
+	font-size: 2em;
+}
+
+.navbar-default{
+	top:18px;
+	background-color:#FFF;
+	border-width:1px 0 2px;
+	border-color:#E7E7E7;
+}
+
+a.navbar-brand{
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+	-webkit-transition: none;
+	transition: none;
+	height: 74px;
+	width: 118px;
+	background:url(../img/logo_spritesheet.png) no-repeat;
+	background-position: 0 0;
+	position: absolute;
+	top:-8px;
+	margin-left:15px;
+	overflow: hidden;
+	text-indent: -9999px;
+	padding:0;
+	z-index:10;
+}
+
+a.navbar-brand:hover, a.navbar-brand:focus{
+	background-position: 0 -74px;
+}
+
+.navicon{
+	/*box-sizing: content-box;*/
+	font-size:32px;
+	padding-right:10px;
+	width:32px;
+}
+
+.navlabel{
+	font-size:20px;
+	position: relative;
+	bottom: 4px;
+}
+
+.no-touch .nav li:not(active){
+	overflow:hidden;
+	/*width:57px;*/
+}
+
+/*straight bootstrap overrides*/
+.navbar-default .navbar-nav > li > a {
+  color: #e5e5e5;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #56626d;
+	transition: color 400ms ease 200ms;
+	-webkit-transition: color 400ms ease 200ms;
+	-moz-transition: color 400ms ease 200ms;
+	-ms-transition: color 400ms ease 200ms;
+	-o-transition: color 400ms ease 200ms;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ededed;
+  background-color: #56626d;
+	border-radius:0px;
+	transition: color 400ms ease 200ms;
+	-webkit-transition: color 400ms ease 200ms;
+	-moz-transition: color 400ms ease 200ms;
+	-ms-transition: color 400ms ease 200ms;
+	-o-transition: color 400ms ease 200ms;
+}
+
+
+@media (min-width: 768px) { 
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: 0px;
+  }
+	
+	.navbar-nav > li > a {
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+}
+
+/*-------------------------End Nav Styles--------------------------------*/
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -50px;
+  /* Pad bottom by footer height */
+  padding: 0 0 50px;
+}
+
+
+footer {
+  height: 40px;/* Set the fixed height of the footer here */
+	background-color:#FFF;
+	border-width:1px 0;
+	border-color:transparent;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+footer > .container {
+	padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footer-content{
+	padding:0 15px;
+	line-height: 40px !important;
+	margin-bottom: 0;
+}
+
+footer .social{
+	float: right;
+}
+
+.social .icon{
+	line-height:40px;
+	font-size: 1.4em;
+	margin-left: 15px;
+}
+
+.social a{
+	position:relative;
+	color: #999;
+	text-decoration:none;
+	bottom:0px;
+}
+
+.social a:hover, .social a:focus{
+	color: #3f88d1;
+	background-color: transparent;
+	text-decoration:none;
+	bottom: 5px;
+	
+/*	transition: all 400ms ease ;
+	-webkit-transition: all 400ms ease ;
+	-moz-transition: all 400ms ease ;
+	-ms-transition: all 400ms ease ;
+	-o-transition: all 400ms ease ;*/
+}
+
+
+/*-----------------end sticky footer styles--------------------- */
+
+
+/*-----------------welcome styles--------------------- */
+.welcome {	
+
+}
+
+.welcome p:first-letter{
+	font-size:1.5em;
+	font-weight:500;
+}
+
+@media(min-width:768px){
+	.welcome{
+		column-count: 2;
+		column-gap : 30px;
+		
+		-moz-column-count: 3;
+		-moz-column-gap: 30px;
+		
+		-webkit-column-count: 2;
+		-webkit-column-gap : 30px;
+	}
+}
+
+@media(min-width:992px){
+	.welcome{
+		column-count: 3; 	
+		-moz-column-count: 3;	
+		-webkit-column-count: 3;
+	}
+}
+
+.welcome img{
+	float: left;
+	padding: 0 12px 12px 0;
+}
+
+
+/*-----------------end welcome styles--------------------- */
+
+/*-----------------carousel styles--------------------- */
+.carousel{
+	margin-bottom:28px;
+}
+
+a.carousel-control, a.carousel-control{
+	background-color:transparent;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	text-shadow:0 0 2px #FFFFFF;
+	width:10%;
+}
+
+.carousel-control.left {
+background-image: -webkit-linear-gradient(left, color-stop(rgba(255, 255, 255, 1) 0%), color-stop(rgba(255, 255, 255, .0001) 100%));
+background-image: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, .0001) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#00ffffff', GradientType=1);
+background-repeat: repeat-x;
+}
+
+.carousel-control.right {
+background-image: -webkit-linear-gradient(right, color-stop(rgba(255, 255, 255, 1) 0%), color-stop(rgba(255, 255, 255, .0001) 100%));
+background-image: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, .0001) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffffff', GradientType=1);
+background-repeat: repeat-x;
+}
+
+.carousel-control .icon{
+	font-size:36px;
+	color:#56626d;
+	position: absolute;
+	top: 50%;
+	z-index: 5;
+	display: inline-block;
+	margin-top:-18px; /*half the height*/
+}
+
+.carousel-control:hover, .carousel-control:focus {
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.carousel-control.left .icon{
+left: -5px;
+
+}
+
+.carousel-control.right .icon{
+right: -5px;
+}
+
+.carousel-indicators {
+	bottom: -25px;
+	margin-bottom: 0px;
+}
+
+.carousel-indicators li{
+	border: 1px solid #56626d;
+}
+
+.carousel-indicators .active{
+	background-color: #56626d;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{
+margin: 0 auto;
+}
+
+.carousel-inner > .item > iframe {
+	/*width:100%;
+	height: auto;*/
+	margin: 0 auto;
+}
+/*-----------------end carousel styles--------------------- */
+
+
+/*------------Portfolio & Project page style---------------*/
+
+.arrowicon{
+	top: 2px;
+	position: relative;
+}
+
+.filter-group{	
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+}
+
+.filter-group .btn{
+	margin: 3px 1%;
+}
+
+.tn{
+	height:220px;
+	width:220px;
+	display: block;
+	margin: 0 auto 15%;
+	padding:0;
+	overflow:hidden;
+	position:relative;
+	border-radius:4px;
+	/*background-color: #fff;
+	color:#333;*/
+	color: #ededed;
+	background-color: #3f88d1;
+	 -moz-box-shadow:    inset 0 5px 10px rgba(0,0,0,.5);
+   -webkit-box-shadow: inset 0 5px 10px rgba(0,0,0,.5);
+   box-shadow:         inset 0 5px 10px rgba(0,0,0,.5);
+}
+a.tn:hover, a.tn:focus{
+	/*background-color:inherit;
+	color:#333;*/
+	cursor:pointer;
+}
+.tn img{
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:10;
+}
+.thumbinfo{
+	padding: 15px;
+	/*border:1px solid #ccc;
+	border-radius:4px;*/
+	height:100%;	
+}
+.thumbinfo .project-title{
+	margin-top: 0;
+	text-align: center;
+	border-bottom: 1px solid #ededed;
+	padding-bottom: 10px;
+}
+
+.project-year{
+	position: absolute;
+	bottom: 35px;
+	border-top: 1px solid #ededed;
+	width: 188px;
+	text-align: center;
+	padding-top: 3px;
+}
+
+.category-holder{
+	width: 100%;	
+	display: inline-block;
+	padding: 0;
+}
+
+.thumbinfo .category-holder{
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	text-align: center;
+	padding: 0 15px;
+}
+
+.category-holder li{
+	display:inline-block;
+	margin: 0 5px;
+}
+
+.project-info h3, .project-info .long-desc, .project-info .year{
+	border-top: 1px solid #ccc;
+	margin-top: 0px;
+	padding-top: 15px;
+}
+
+.project-info .year{
+	text-align:right;
+}
+
+/*----------------Contact Page styles----------------------*/
+.flip:before{
+	content:"stevelynagh@hotmail.com";
+}
+
+
+/*=======================================================
+Flex video from https://gist.github.com/jgarber/2302238
+Copyright (c) 2011 ZURB, http://www.zurb.com/
+=======================================================*/
+.flex-video {
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 67.5%;
+  height: 0;
+  /*margin-bottom: 16px;*/
+  overflow: hidden;
+}
+ 
+.flex-video.widescreen { padding-bottom: 57.25%; }
+.flex-video.vimeo { padding-top: 0; }
+ 
+.flex-video iframe,
+.flex-video object,
+.flex-video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
+  .flex-video { padding-top: 0; }
+}
+
+/*==============================================================
+End Flex video
+==================================================================*/

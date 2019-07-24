@@ -45,7 +45,7 @@
 		<!--Welcome-->
 		<section class="panel panel-default">
 		<div class="welcome panel-body justify">
-			<p><img height="128" width="128" src="img/desert_steve_256.jpg" onload="imgLoaded(this)">I’m Steven Joseph Lynagh, a Frontend Developer with a background in design and multimedia. My weapons of choice are Javascript (ES6 of course!), CSS, and HTML. And yeah I could tell you I’m an expert when it comes to jQuery, Bootstrap, or Photoshop  but I’d rather <a href="https://app.pluralsight.com/profile/steven-lynagh" target="_blank">show you the proof</a>. Maybe you need a React developer? I've built my <a href="http://resume.stevenlynagh.com/" target="_blank" >resume as a React app</a>.</p>
+			<p><img height="128" width="128" src="img/desert_steve_256.jpg" onload="imgLoaded(this)">I’m Steven Joseph Lynagh, Frontend Developer with a background in design and multimedia. My weapons of choice are Javascript (ES6 of course!), CSS, and HTML. And yeah I could tell you I’m an expert when it comes to jQuery, Bootstrap, or Photoshop  but I’d rather <a href="https://app.pluralsight.com/profile/steven-lynagh" target="_blank">show you the proof</a>. Maybe you need a React developer? I've built my <a href="http://resume.stevenlynagh.com/" target="_blank" >resume as a React app</a>.</p>
 
 			<p>I am versatile and resourceful – traits from a career which spans animation, illustration and  multimedia to e-learning and frontend design and development for web and mobile. Maybe I’m too eager to pick up a new tool to apply to a solution, but I reckon that’s a strength. You might call me a polymath. Maybe a renaissance man. Whatever, just calm down.</p>
 		

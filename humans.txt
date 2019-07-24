@@ -18,3 +18,4 @@
     Normalize.css, jQuery, Modernizr
 	Twitter Bootstrap 3
 	Dreamweaver, Photoshop, NotePad++, EasyPHP DevServer
+	VSCode

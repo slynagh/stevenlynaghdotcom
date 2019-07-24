@@ -57,6 +57,7 @@ trim:				#ccc				grey
 
 body{
 	font-family: 'Museo', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 15px;
 }
 
 ul{	
@@ -304,11 +305,11 @@ footer .social{
 .welcome {	
 
 }
-
+/* 
 .welcome p:first-letter{
 	font-size:1.5em;
 	font-weight:500;
-}
+} */
 
 @media(min-width:768px){
 	.welcome{

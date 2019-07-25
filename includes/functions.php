@@ -39,7 +39,7 @@ function displayProjectGallery( $filters=NULL ){
 			$href.="&categories[]=".$filter;
 		}
 		$output .= "<div class='tiny-12 col-xs-6 col-md-4 col-lg-3'>
-		<a class='tn' href = ".$href.">
+		<a class='tn' href = '".$href."'>
 			<img src='";
 		if ((substr( $project["thumb"], 0, 4 )) === "http"){
 			$output .= $project["thumb"];

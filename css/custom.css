@@ -277,6 +277,10 @@ footer .social{
 	margin-left: 15px;
 }
 
+.social .icon::before{
+	color: inherit;
+}
+
 .social a{
 	position:relative;
 	color: #999;

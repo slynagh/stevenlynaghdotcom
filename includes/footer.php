@@ -2,13 +2,15 @@
 	<div class="container">
 		<div class = "footer-content">
 		
-			<span class="text-muted small">Copyright <?php echo date("Y"); ?>, Steven Lynagh | <a href="index.php?page=siteinfo">About this site</a></span>
+			<span class="text-muted small">Copyright <?php echo date("Y"); ?>, Steven Lynagh | <a href="http://resume.stevenlynagh.com/" target="_blank">View resume</a> | <a href="index.php?page=siteinfo">About this site</a> </span>
 			
 			<div class="social">
-				<a href="http://www.linkedin.com/pub/steve-lynagh/38/724/a5b" target="_blank" title="LinkedIn"><span class="icon icon-linkedin" ></span></a>
-				<a href="https://www.youtube.com/user/stevelynagh/videos" target="_blank" title="YouTube"><span class="icon icon-youtube" ></span></a>
-				<a href="https://twitter.com/stevelynagh" target="_blank" title="Twitter"><span class="icon icon-twitter"></span></a>
-				<a href="http://stackexchange.com/users/3319325/slynagh" target="_blank" title="stackoverflow"><span class="icon icon-stackoverflow"></span></a>
+				<a href="http://www.linkedin.com/pub/steve-lynagh/38/724/a5b" target="_blank" title="LinkedIn profile"><span class="icon icon-linkedin" ></span></a>
+				<a href="https://www.youtube.com/user/stevelynagh/videos" target="_blank" title="YouTube channel"><span class="icon icon-youtube" ></span></a>
+				<a href="https://www.freecodecamp.org/stevelynagh" target="_blank" title="freeCodeCamp profile" ><span class="icon icon-free-code-camp"></span></a>
+				<a href="https://stackoverflow.com/story/slynagh" target="_blank" title="stackoverflow profile"><span class="icon icon-stackoverflow"></span></a>
+				<a href="https://github.com/slynagh" target="_blank" title="github profile"><span class="icon icon-github"></span></a>
+				<a href="https://app.pluralsight.com/profile/steven-lynagh" target="_blank" title="PluralSight profile"><span class="icon icon-pluralsight"></span></a>
 			</div>
 			
 		</div>

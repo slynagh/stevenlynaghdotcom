@@ -2,7 +2,7 @@
 
 <!--
 ==========================================================================
-DEVELOPED & DESIGNED BY 
+DEVELOPED & DESIGNED BY
 
    _____ __                          __                           __  
   / ___// /____ _   _____  ____     / /  __  ______  ____ _____ _/ /_ 
@@ -28,7 +28,7 @@ Cheers!
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Welcome | Steven Lynagh - Designer, Developer, Animator</title>
+<title>Welcome | Steven Lynagh - Front End / Multimedia developer and designer</title>
 <meta name="author" content="Steven Lynagh">
 <meta name="description" content="Steven Lynagh is an artist, designer and developer from Brisbane, Australia. This is his portfolio">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,15 +36,13 @@ Cheers!
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 <!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="css/icomoon.css">
-<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/icomoon/style.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
 <link rel="stylesheet" type="text/css" href="css/custom.css">
 <link rel="stylesheet" type="text/css" href="css/animations.css">
 <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
 <script>function imgLoaded(img){
-   
- 
     img.className += img.className ? ' loaded' : 'loaded';
 };
 </script>

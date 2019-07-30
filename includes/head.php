@@ -30,7 +30,7 @@ Cheers!
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Welcome | Steven Lynagh - Front End / Multimedia developer and designer</title>
 <meta name="author" content="Steven Lynagh">
-<meta name="description" content="Steven Lynagh is an artist, designer and developer from Brisbane, Australia. This is his portfolio">
+<meta name="description" content="I'm a frontend developer with a background in multimedia and visual arts. I'm especially interested in working with agile, test-driven teams on user-focussed cross platform projects, delivering innovative solutions via continuous integration techniques.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->

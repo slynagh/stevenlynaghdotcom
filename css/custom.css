@@ -464,7 +464,16 @@ a.tn:hover, a.tn:focus{
 	top:0px;
 	left:0px;
 	z-index:10;
+
+	transition-property: top;
+	transition: ease-out;
+	transition-duration: 300ms;
 }
+
+.tn.active img{
+	top: 220px;
+}
+
 .thumbinfo{
 	padding: 15px;
 	/*border:1px solid #ccc;

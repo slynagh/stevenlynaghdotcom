@@ -387,12 +387,12 @@ background-repeat: repeat-x;
 }
 
 .carousel-control.left .icon{
-left: -5px;
+left: 5px;
 
 }
 
 .carousel-control.right .icon{
-right: -5px;
+right: 5px;
 }
 
 .carousel-indicators {

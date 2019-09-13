@@ -33,10 +33,10 @@
 
   	<!-- Controls -->
   	<a class="carousel-control left" href="#carousel-sampler" data-slide="prev">
-    	<span class="icon icon-arrow-left3"></span>
+    	<span class="icon icon-circle-left"></span>
   	</a>
   	<a class="carousel-control right" href="#carousel-sampler" data-slide="next">
-    	<span class="icon icon-arrow-right3"></span>
+    	<span class="icon icon-circle-right"></span>
   	</a>
 		
 	</section><!--/.carousel-->

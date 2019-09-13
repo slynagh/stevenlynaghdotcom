@@ -5,6 +5,7 @@
 		}
 	],
 	"settings": {
-		"sftp.printDebugLog": false
+		"sftp.printDebugLog": true,
+		"sftp.debug": true
 	}
 }

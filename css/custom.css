@@ -465,13 +465,14 @@ a.tn:hover, a.tn:focus{
 	left:0px;
 	z-index:10;
 
-	transition-property: top;
+	transition-property: top, opacity;
 	transition: ease-out;
 	transition-duration: 300ms;
 }
 
 .tn.active img{
-	top: 220px;
+	/*top: 220px;*/
+	opacity: 0.05;
 }
 
 .thumbinfo{

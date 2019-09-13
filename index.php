@@ -12,7 +12,7 @@
 	if (isset($_GET["page"])){
 		$selectedPage = $_GET["page"];
 	} else {
-		$selectedPage = NULL;
+		$selectedPage = "profile";
 	};
 ?>
 <?php require("includes/head.php") ?>

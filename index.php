@@ -56,3 +56,10 @@
 </div><!--wrap-->
 
 <?php require("includes/footer.php"); ?>
+
+<?php
+	// 5. Close connection
+	if (isset($connection)){
+		mysql_close($connection);
+	}
+?>

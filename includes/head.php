@@ -33,6 +33,16 @@ Cheers!
 <meta name="description" content="I'm a frontend developer with a background in multimedia and visual arts. I'm especially interested in working with agile, test-driven teams on user-focussed cross platform projects, delivering innovative solutions via continuous integration techniques.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147986413-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-147986413-1');
+</script>
+
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 <!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">

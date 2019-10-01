@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class = "footer-content">
 		
-			<span class="text-muted small">Copyright <?php echo date("Y"); ?>, Steven Lynagh | <a href="http://resume.stevenlynagh.com/" target="_blank">View resume</a> | <a href="index.php?page=siteinfo">About this site</a> </span>
+			<span class="text-muted small">Copyright <?php echo date("Y"); ?>, Steven Lynagh <span class="no-wrap"><a href="http://resume.stevenlynagh.com/" target="_blank">View resume</a> | <a href="index.php?page=siteinfo">About this site</a></span> </span>
 			
 			<div class="social">
 				<a href="http://www.linkedin.com/pub/steve-lynagh/38/724/a5b" target="_blank" title="LinkedIn profile"><span class="icon icon-linkedin" ></span></a>

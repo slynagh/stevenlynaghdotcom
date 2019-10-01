@@ -116,6 +116,9 @@ img.loaded{
 	text-align:justify;
 }
 
+.no-wrap{
+	white-space: nowrap;
+}
 /*---------------Navbar Styles-----------------------*/
 
 .js .nav{
@@ -229,52 +232,28 @@ a.navbar-brand:hover, a.navbar-brand:focus{
 
 /* Sticky footer styles
 -------------------------------------------------- */
-
-html,
-body {
-  height: 100%;
-  /* The html and body elements cannot have any padding or margin. */
-}
-
-/* Wrapper for page content to push down footer */
-#wrap {
-  min-height: 100%;
-  height: auto;
-  /* Negative indent footer by its height */
-  margin: 0 auto -50px;
-  /* Pad bottom by footer height */
-  padding: 0 0 50px;
-}
-
-
 footer {
-  height: 40px;/* Set the fixed height of the footer here */
 	background-color:#FFF;
 	border-width:1px 0;
 	border-color:transparent;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
-          box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+  	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
 }
 
 footer > .container {
 	padding-left: 15px;
-  padding-right: 15px;
+	padding-right: 15px;
 }
 
 .footer-content{
 	padding:0 15px;
-	line-height: 40px !important;
+	line-height: 40px;
 	margin-bottom: 0;
-}
-
-footer .social{
-	float: right;
 }
 
 .social .icon{
 	line-height:40px;
 	font-size: 1.4em;
-	margin-left: 15px;
 }
 
 .social .icon::before{
@@ -286,6 +265,17 @@ footer .social{
 	color: #999;
 	text-decoration:none;
 	bottom:0px;
+	margin-left: 15px;
+}
+
+@media screen and (max-width: 340px){
+	.social a{
+		margin-left: 10px;
+	}
+}
+
+.social a:first-child{
+	margin-left: 0px;
 }
 
 .social a:hover, .social a:focus{
@@ -293,12 +283,39 @@ footer .social{
 	background-color: transparent;
 	text-decoration:none;
 	bottom: 5px;
-	
-/*	transition: all 400ms ease ;
-	-webkit-transition: all 400ms ease ;
-	-moz-transition: all 400ms ease ;
-	-ms-transition: all 400ms ease ;
-	-o-transition: all 400ms ease ;*/
+}
+
+/* Wrapper for page content to push down footer */
+@media screen and (min-width: 768px){
+
+	html,
+	body {
+	height: 100%;
+	/* The html and body elements cannot have any padding or margin. */
+	}
+
+	#wrap {
+		min-height: 100%;
+		height: auto;
+		/* Negative indent footer by its height */
+		margin: 0 auto -50px;
+		/* Pad bottom by footer height */
+		padding: 0 0 50px;
+	}
+
+	footer {
+		height: 40px;/* Set the fixed height of the footer here */
+	}
+
+	footer .social{
+		float: right;
+	}
+}
+
+@media screen and (min-width: 440px) and (max-width: 767px){
+	.footer-content{
+		text-align: center;
+	}
 }
 
 

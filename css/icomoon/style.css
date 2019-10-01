@@ -1,12 +1,13 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?javhjf');
-  src:  url('fonts/icomoon.eot?javhjf#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?javhjf') format('truetype'),
-    url('fonts/icomoon.woff?javhjf') format('woff'),
-    url('fonts/icomoon.svg?javhjf#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?7re3pd');
+  src:  url('fonts/icomoon.eot?7re3pd#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?7re3pd') format('truetype'),
+    url('fonts/icomoon.woff?7re3pd') format('woff'),
+    url('fonts/icomoon.svg?7re3pd#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: block;
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -24,6 +25,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-down:before {
+  content: "\e946";
+}
+.icon-left:before {
+  content: "\e947";
+}
+.icon-right:before {
+  content: "\e948";
+}
+.icon-up:before {
+  content: "\e949";
+}
 .icon-amazonaws:before {
   content: "\e901";
 }
@@ -202,9 +215,6 @@
 .icon-youtube1:before {
   content: "\e92e";
   color: #f00;
-}
-.icon-free-code-camp:before {
-  content: "\e900";
 }
 .icon-home:before {
   content: "\e92f";
@@ -508,4 +518,7 @@
 }
 .icon-git:before {
   content: "\eae7";
+}
+.icon-free-code-camp:before {
+  content: "\e900";
 }

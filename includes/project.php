@@ -63,10 +63,10 @@
 															</div><!--/.carousel-inner -->
 			
 														<a class="carousel-control left" href="#carousel-project" data-slide="prev">
-															<span class="icon icon-arrow-left"></span>
+															<span class="icon icon-left"></span>
 														</a>
 														<a class="carousel-control right" href="#carousel-project" data-slide="next">
-															<span class="icon icon-arrow-right"></span>
+															<span class="icon icon-right"></span>
 														</a>
 					
 													</div><!--/.carousel-->

@@ -306,10 +306,11 @@ footer .social{
 
 
 /*-----------------welcome styles--------------------- */
+/* 
 .welcome {	
 
 }
-/* 
+
 .welcome p:first-letter{
 	font-size:1.5em;
 	font-weight:500;
@@ -369,7 +370,7 @@ a.carousel-control:hover, a.carousel-control:focus {
 
 .carousel-control .icon{
 	font-size:36px;
-	color:##fff;
+	color:#fff;
 	position: absolute;
 	top: 50%;
 	z-index: 5;
